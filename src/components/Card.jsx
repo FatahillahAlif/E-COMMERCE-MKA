@@ -5,8 +5,9 @@ export function CardComp() {
   return (
     <Card
       className="max-w-sm"
-      imgAlt="Meaningful alt text for an image that is not purely decorative"
+      imgAlt="foto umkm"
       imgSrc="/src/assets/image8.svg"
+      href="#"
     >
       <div className="p-0">
         <h5 className="text-s font-bold tracking-tight text-gray-900 dark:text-white mt-2">

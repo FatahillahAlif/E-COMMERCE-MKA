@@ -1,5 +1,4 @@
 import React from 'react';
-import FormComp from '../components/Form';
 import CardComp from '../components/Card';
 
 function Dataumkm() {
