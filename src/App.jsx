@@ -5,6 +5,8 @@ import Register from "./pages/Register"
 import Dataumkm from "./pages/Dataumkm"
 import NavbarComp from "./components/Navbar"
 import Profilemitra from './pages/Profilemitra';
+import Produkumkm from './pages/Produkumkm'
+import Marketplace from './pages/Marketplace';
 import FooterComp from './components/Footer';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/dataumkm" element={<Dataumkm />} />
         <Route path="/profilemitra" element={<Profilemitra />} />
+        <Route path="/produkumkm" element={<Produkumkm />} />
+        <Route path="/marketplace" element={<Marketplace />} />
       </Routes>
       <FooterComp/>
     </Router>

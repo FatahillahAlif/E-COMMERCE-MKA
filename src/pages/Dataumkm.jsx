@@ -1,6 +1,8 @@
 import React from 'react';
 import CardComp from '../components/Card';
 import ButtonFilComp from '../components/ButtonFil';
+import { Pagination } from 'flowbite-react';
+import PaginationComp from '../components/Pagination';
 
 function Dataumkm() {
   return (
@@ -21,13 +23,7 @@ function Dataumkm() {
         <CardComp />
         <CardComp />
       </div>
-      <div className="join">
-        <button className="join-item btn">1</button>
-        <button className="join-item btn">2</button>
-        <button className="join-item btn btn-disabled">...</button>
-        <button className="join-item btn">99</button>
-        <button className="join-item btn">100</button>
-    </div>
+      <PaginationComp/>
     </div>
   );
 }
