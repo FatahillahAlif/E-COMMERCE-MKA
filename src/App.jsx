@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register"
 import Dataumkm from "./pages/Dataumkm"
 import NavbarComp from "./components/Navbar"
+import FooterComp from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/dataumkm" element={<Dataumkm />} />
       </Routes>
+      <FooterComp/>
     </Router>
   );
 }

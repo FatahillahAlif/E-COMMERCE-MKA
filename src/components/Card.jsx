@@ -5,7 +5,7 @@ export function CardComp() {
   return (
     <Card
       className="max-w-sm"
-      imgAlt="Meaningful alt text for an image that is not purely decorative"
+      imgAlt="foto umkm"
       imgSrc="/src/assets/image8.svg"
     >
       <div className="p-0">
