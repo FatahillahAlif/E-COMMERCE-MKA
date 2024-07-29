@@ -4,7 +4,6 @@ import Login from "./pages/Login";
 import Register from "./pages/Register"
 import Dataumkm from "./pages/Dataumkm"
 import NavbarComp from "./components/Navbar"
-import Profilemitra from './pages/Profilemitra';
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
         <Route path="/dataumkm" element={<Dataumkm />} />
         <Route path="/profilemitra" element={<Profilemitra />} />
       </Routes>
+      <FooterComp/>
     </Router>
   );
 }
