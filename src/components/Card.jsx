@@ -7,7 +7,7 @@ export function CardComp() {
       className="max-w-sm"
       imgAlt="foto umkm"
       imgSrc="/src/assets/image8.svg"
-      href="#"
+      href="/profilemitra"
     >
       <div className="p-0">
         <h5 className="text-s font-bold tracking-tight text-gray-900 dark:text-white mt-2">

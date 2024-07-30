@@ -22,14 +22,14 @@ function FormComp() {
           Ingat Saya
         </Label>
       </div>
-      <div className='flex justify-center items-center w-96'>
-        <button className='bg-[#1D5C96] w-[184px] h-[31px] flex items-center rounded-lg justify-center text-white font-semibold hover:bg-blue-900' type="submit"> LOGIN</button>
+      <div className='flex justify-center'>
+        <button className='bg-[#1D5C96] w-[184px] h-[31px] flex items-center rounded-lg justify-center text-white font-semibold hover:bg-blue-900' type="submit">LOGIN</button>
       </div>
       <div className='absolute left-0 bottom-0 pl-4 pb-4'>
         <a href='#' className='underline'>Lupa Password?</a>
       </div>
       <div className='absolute right-0 bottom-0 pr-4 pb-4'>
-        <a href='#' className='underline'>Daftar Sekarang</a>
+        <a href='/register' className='underline'>Daftar Sekarang</a>
       </div>
     </form>
   );

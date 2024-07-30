@@ -6,13 +6,13 @@ export function NavbarComp() {
     <div className='drop-shadow-md'>
       <Navbar fluid rounded>
         
-        <Navbar.Brand href="https://flowbite-react.com">
+        <Navbar.Brand href="/">
         <img src="/src/assets/DKUMKMP.svg" className="mr-3 h-6 sm:h-20" alt="Logo Dinas UMKM" />
       </Navbar.Brand>
       
       <Navbar.Collapse className='pr-[126px]'>
-        <Navbar.Link href="#">Data UMKM</Navbar.Link>
-        <Navbar.Link href="#">Marketplace</Navbar.Link>
+        <Navbar.Link href="/dataumkm">Data UMKM</Navbar.Link>
+        <Navbar.Link href="/marketplace">Marketplace</Navbar.Link>
         <Navbar.Link href="#">Pelatihan</Navbar.Link>
         <Navbar.Link href="#">Konsultasi</Navbar.Link>
         <Navbar.Link href="#">Fasiliitas</Navbar.Link>
