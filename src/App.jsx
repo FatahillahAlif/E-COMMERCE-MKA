@@ -8,6 +8,7 @@ import Profilemitra from './pages/Profilemitra';
 import Produkumkm from './pages/Produkumkm'
 import Marketplace from './pages/Marketplace';
 import FooterComp from './components/Footer';
+import Detailproduct from './pages/Detailproduct';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/profilemitra" element={<Profilemitra />} />
         <Route path="/produkumkm" element={<Produkumkm />} />
         <Route path="/marketplace" element={<Marketplace />} />
+        <Route path='/detailproduct' element={<Detailproduct />} />
       </Routes>
       <FooterComp/>
     </Router>
