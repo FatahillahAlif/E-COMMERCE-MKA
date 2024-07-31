@@ -22,6 +22,8 @@ function App() {
         <Route path="/profilemitra" element={<Profilemitra />} />
         <Route path="/produkumkm" element={<Produkumkm />} />
         <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/detailproduct" element={<Detailproduct />} />
       </Routes>
       <FooterComp/>
     </Router>
