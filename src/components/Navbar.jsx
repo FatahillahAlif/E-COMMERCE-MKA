@@ -5,11 +5,13 @@ export function NavbarComp() {
   return (
     <div className='drop-shadow-md'>
       <Navbar fluid rounded>
-        
-        <Navbar.Brand href="/">
+
+       <div className='lg:pl-20'> 
+      <Navbar.Brand href="/">
         <img src="/src/assets/DKUMKMP.svg" className="mr-3 h-6 sm:h-20" alt="Logo Dinas UMKM" />
       </Navbar.Brand>
-      
+      </div>
+
       <Navbar.Collapse className='pr-[126px]'>
         <Navbar.Link href="/dataumkm">Data UMKM</Navbar.Link>
         <Navbar.Link href="/marketplace">Marketplace</Navbar.Link>
@@ -18,13 +20,11 @@ export function NavbarComp() {
         <Navbar.Link href="#">Fasiliitas</Navbar.Link>
       </Navbar.Collapse>
 
-      <div className="flex md:order-2">
-      <Navbar.Collapse>
+      <div className="flex md:order-2 list-none justify-end lg:gap-5 lg:pr-20">
         <Navbar.Link href="#"><img src ="/src/assets/Cartsvg.svg "/></Navbar.Link>
         <Navbar.Link href="#"><img src ="/src/assets/profile.svg "/></Navbar.Link>
-        <Navbar.Toggle />
-      </Navbar.Collapse>
       </div>
+      <Navbar.Toggle className='flex justify-end' />
     </Navbar>
     </div>
   );

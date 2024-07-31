@@ -19,29 +19,52 @@ function Profilemitra() {
         <div className='self-start'>
           <img className='w-[640px] h-[390px] border rounded-lg shadow-md' alt="foto umkm" src="/src/assets/image8.svg"/>
         </div>
-        <div className='border w-[700px] h-[390px] rounded-lg  flex flex-col gap-3 justify-start items-start shadow-md'>
-            <div className='p-10 flex flex-col gap-2 text-xl'>
-            <p>Nama Usaha : Pawon Bu Fatim</p>
-            <div className='border border-gray-200 w-[640px]'></div>
-            <p>Jenis Usaha : Makanan</p>
-            <div className='border border-gray-200 w-[640px]'></div>
-            <p>Kecamatan : Balikpapan Utara</p>
-            <div className='border border-gray-200 w-[640px]'></div>
-            <p>Kelurahan : Karang Joang</p>
-            <div className='border border-gray-200 w-[640px]'></div>
-            <p>Alamat : Jl. Soekarno Hatta KM 15</p>
-            <div className='border border-gray-200 w-[640px]'></div>
-            <p>Nama Pemilik : Fatim</p>
-            <div className='border border-gray-200 w-[640px]'></div>
-            <p>Nomor HP : 081234526783</p>
-            <div className='border border-gray-200 w-[640px]'></div>
-            </div>
+        <div className='border w-[700px] h-[390px] rounded-lg shadow-md p-10'>
+          <table className='w-full h-full text-xl'>
+            <tbody>
+              <tr className='border-b border-gray-400'>
+                <td>Nama Usaha</td>
+                <td>:</td>
+                <td className='pl-5'>Pawon Bu Fatim</td>
+              </tr>
+              <tr className='border-b border-gray-400'>
+                <td>Jenis Usaha</td>
+                <td>:</td>
+                <td className='pl-5'>Makanan</td>
+              </tr>
+              <tr className='border-b border-gray-400'>
+                <td>Kecamatan</td>
+                <td>:</td>
+                <td className='pl-5'>Balikpapan Utara</td>
+              </tr>
+              <tr className='border-b border-gray-400'>
+                <td>Kelurahan</td>
+                <td>:</td>
+                <td className='pl-5'>Karang Joang</td>
+              </tr>
+              <tr className='border-b border-gray-400'>
+                <td>Alamat</td>
+                <td>:</td>
+                <td className='pl-5'>Jl. Soekarno Hatta KM 15</td>
+              </tr>
+              <tr className='border-b border-gray-400'>
+                <td>Nama Pemilik</td>
+                <td>:</td>
+                <td className='pl-5'>Fatim</td>
+              </tr>
+              <tr className='border-b border-gray-400'>
+                <td>Nomor HP</td>
+                <td>:</td>
+                <td className='pl-5'>081234526783</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-        <div className='border border-gray-400 w-[1360px] h-fit px-10 py-4 gap-5 flex flex-col rounded-xl shadow-md'>
-          <h3 className='font-bold text-xl'>Profil Usaha</h3>
-          <p className='text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </div>
+      <div className='border border-gray-400 w-[1360px] h-fit px-10 py-4 gap-5 flex flex-col rounded-xl shadow-md'>
+        <h3 className='font-bold text-xl'>Profil Usaha</h3>
+        <p className='text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
       <div className='border border-gray-400 w-[1360px]'></div>
       <div className='flex flex-col justify-center items-center'>
         <h1 className='font-bold text-3xl pt-8'>

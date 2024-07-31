@@ -15,10 +15,12 @@ function Produkumkm() {
           </div>
         </div>
       </div>
+      <div>
       <h1 className='font-bold text-4xl'>
         PRODUK UMKM
-        <div className='h-1 bg-[#1D5C96] rounded-sm'/>
       </h1>
+      <div className='h-1 bg-[#1D5C96] rounded-sm'/>
+      </div>
       <div className='grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
         <CardFoodComp />
         <CardFoodComp />
