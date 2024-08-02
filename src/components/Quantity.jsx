@@ -14,7 +14,7 @@ export function QuantityComp() {
   };
 
   return (
-    <div className="flex ml-48 items-center">
+    <div className="flex items-center justify-center">
       <div className="flex items-center bg-[#F0F0F0] rounded-xl">
         <button
           className="text-sm px-2 py-1 text-black"

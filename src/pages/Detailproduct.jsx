@@ -32,9 +32,11 @@ function Detailproduct() {
           4.95/5
         </p>
       </div>
-      <h1 className='flex text-xl font-bold mt-2'>
+      <h1 className='flex text-xl font-bold mt-2 w-full pl-5 justify-between'>
         Rp.15.000
+        <div className='pr-5'>
         <QuantityComp />
+        </div>
       </h1>
       <div className='w-full border-t mt-2' />
       <ButtonDpComp/>
