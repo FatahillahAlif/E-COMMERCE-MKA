@@ -3,7 +3,7 @@ import { Rating } from 'flowbite-react'; // Import Rating component from Flowbit
 
 export function CardRatingComp() {
   return (
-    <div className="w-[350px] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <div className="w-[350px] p-6 lg:ml-14 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       <a href="#" className="block">
         {/* Rating moved to the top */}
         <Rating>

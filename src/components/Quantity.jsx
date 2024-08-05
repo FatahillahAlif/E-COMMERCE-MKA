@@ -17,14 +17,14 @@ export function QuantityComp() {
     <div className="flex items-center justify-center">
       <div className="flex items-center bg-[#F0F0F0] rounded-xl">
         <button
-          className="text-sm px-2 py-1 text-black"
+          className="text-sm lg:text-base lg:font-bold px-2 py-1 text-black"
           onClick={handleDecrement}
         >
           -
         </button>
-        <span className="text-sm mx-2 text-gray-900">{quantity}</span>
+        <span className="text-sm lg:text-base lg:font-bold mx-2 text-gray-900">{quantity}</span>
         <button
-          className="text-sm px-2 py-1 text-black"
+          className="text-sm lg:text-base lg:font-bold px-2 py-1 text-black"
           onClick={handleIncrement}
         >
           +
