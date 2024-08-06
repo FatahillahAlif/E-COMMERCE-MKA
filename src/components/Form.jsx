@@ -1,35 +1,33 @@
-import React from 'react'
+import React from 'react';
 import { Checkbox, Label, TextInput } from "flowbite-react";
 
 function FormComp() {
   return (
-    <form className="relative flex h-[327px] w-[483px] pb-6 justify-center items-center border border-black flex-col gap-4 rounded-lg">
-      <div className="w-96">
+    <form className="relative flex flex-col items-center justify-center p-4 sm:p-6 border border-black rounded-lg max-w-sm sm:max-w-md w-full mx-auto gap-4">
+      <div className="w-full">
         <div className="mb-2 block">
-          <Label className='font-bold' htmlFor="email2" value="NIK" />
-          <TextInput id="email2" type="number" placeholder="NIK" required shadow />
+          <Label className='font-bold' htmlFor="nik" value="NIK" />
+          <TextInput id="nik" type="number" placeholder="NIK" required shadow className="w-full" />
         </div>
       </div>
-      <div className="w-96">
+      <div className="w-full">
         <div className="mb-2 block">
-          <Label className='font-bold' htmlFor="password2" value="Password" />
-          <TextInput id="password2" type="password" placeholder="Password" required shadow />
+          <Label className='font-bold' htmlFor="password" value="Password" />
+          <TextInput id="password" type="password" placeholder="Password" required shadow className="w-full" />
         </div>
       </div>
-      <div className="flex items-center gap-2 w-96">
-        <Checkbox className='border-black rounded-none bg-transparent' id="agree" />
-        <Label htmlFor="agree" className="flex">
+      <div className="flex items-center gap-2 w-full">
+        <Checkbox className='border-black rounded-none bg-transparent' id="remember" />
+        <Label htmlFor="remember" className="flex">
           Ingat Saya
         </Label>
       </div>
-      <div className='flex justify-center'>
-        <button className='bg-[#1D5C96] w-[184px] h-[31px] flex items-center rounded-lg justify-center text-white font-semibold hover:bg-blue-900' type="submit">LOGIN</button>
+      <div className='flex justify-center w-full'>
+        <button className='bg-[#1D5C96] w-full sm:w-[200px] h-[40px] flex items-center rounded-lg justify-center text-white font-semibold hover:bg-blue-900' type="submit">LOGIN</button>
       </div>
-      <div className='absolute left-0 bottom-0 pl-4 pb-4'>
-        <a href='#' className='underline'>Lupa Password?</a>
-      </div>
-      <div className='absolute right-0 bottom-0 pr-4 pb-4'>
-        <a href='/register' className='underline'>Daftar Sekarang</a>
+      <div className='flex justify-between w-full mt-4'>
+        <a href='#' className='underline text-sm'>Lupa Password?</a>
+        <a href='/register' className='underline text-sm'>Daftar Sekarang</a>
       </div>
     </form>
   );
