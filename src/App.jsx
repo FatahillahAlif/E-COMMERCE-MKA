@@ -10,7 +10,6 @@ import Marketplace from './pages/Marketplace';
 import FooterComp from './components/Footer';
 import Cart from './pages/Cart';
 import Detailproduct from './pages/Detailproduct';
-import Dashboard from './pages/mitra/Dashboard';
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
         <Route path="/marketplace" element={<Marketplace />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/detailproduct" element={<Detailproduct />} />
-        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <FooterComp/>
     </Router>

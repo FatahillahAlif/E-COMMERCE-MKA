@@ -7,19 +7,51 @@ import FillMPComp from '../components/FillMP';
 function Marketplace() {
   return (
     <div className='flex flex-col mt-5 items-center'>
-      <div className='flex flex-wrap w-full justify-between items-center px-4 sm:px-8 md:px-24'> 
-        {/* Menghapus bagian yang tidak diperlukan */}
+      <div className='flex flex-wrap w-full justify-between items-center px-4 sm:px-8 md:px-28'>
         <div className='flex-grow' /> {/* Membantu memisahkan konten */}
-        <div className='flex items-center w-full sm:w-auto justify-end'> {/* Mengatur elemen ke kanan */}
-          <h1 className='text-xs mr-2'>Sort by:</h1>
-          <DropdownMPComp />
+        <div className='flex items-center w-full lg:pl-[229px] justify-between mb-4'>
+          <div className="relative w-full sm:w-48 lg:w-[460px] xl:w-[950px] mr-4"> {/* Margin kanan untuk spasi */}
+            <form className="flex items-center w-full">
+              <label htmlFor="simple-search" className="sr-only">Search</label>
+              <div className="relative w-full">
+                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <svg 
+                    className="w-5 h-5 text-gray-500 dark:text-gray-400" 
+                    aria-hidden="true" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    fill="none" 
+                    viewBox="0 0 20 20"
+                  >
+                    <path 
+                      stroke="currentColor" 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round" 
+                      strokeWidth="2" 
+                      d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                    />
+                  </svg>
+                </div>
+                <input 
+                  type="text" 
+                  id="simple-search" 
+                  className="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 font-semibold dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
+                  placeholder="Cari UMKM" 
+                />
+              </div>
+            </form>
+          </div>
+          <div className='flex items-center'>
+            <span className='hidden lg:flex mr-1 text-xs text-gray-700 dark:text-gray-200'>Sort by:</span>
+            <DropdownMPComp />
+          </div>
         </div>
       </div>
-      <div className='flex w-full flex-col sm:flex-row mt-4 items-start justify-start'>
-        <div className='flex-shrink-0 mb-4 sm:mb-0 sm:mr-7 sm:ml-10'>
+
+      <div className='flex flex-col sm:flex-row mt-4'>
+        <div className='hidden lg:flex flex-shrink-0 mb-4 sm:mb-0 sm:mr-7 sm:ml-10'>
           <FillMPComp />
         </div>
-        <div className='grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full px-7'>
+        <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-4 sm:px-7'>
           <CardFoodComp />
           <CardFoodComp />
           <CardFoodComp />
