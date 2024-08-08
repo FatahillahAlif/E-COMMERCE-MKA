@@ -4,10 +4,10 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
 
 export function FooterComp() {
   return (
-    <Footer container className="mt-[125px] bg-gray-100">
+    <Footer container className="flex mt-10 bg-gray-100">
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:grid md:grid-cols-1">
-          <div className="flex flex-col items-start mb-6 sm:mb-0">
+          <div className="flex flex-col items-start sm:mb-0">
             <a href="https://flowbite.com" className="flex items-center">
               <img
                 src="src/assets/DKUMKMP.svg"
