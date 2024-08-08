@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import ResetPass from "./pages/ResetPass";
 import Dataumkm from "./pages/Dataumkm";
 import NavbarComp from "./components/Navbar";
 import Profilemitra from './pages/Profilemitra';
@@ -30,6 +31,7 @@ function App() {
         <Route path="/detailproduct" element={<Detailproduct />} />
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/sidebar" element={<SideBar />} />
+        <Route path="/resetpassword" element={<ResetPass />} />
       </Routes>
       <ConditionalFooter />
     </Router>

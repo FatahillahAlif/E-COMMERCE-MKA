@@ -1,7 +1,11 @@
 function ResetPass() {
     return(
         <div>
-            a
+            <h1>
+                a
+            </h1>
         </div>
     );
 }
+
+export default ResetPass;
